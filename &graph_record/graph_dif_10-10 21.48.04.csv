@@ -1,0 +1,20 @@
+
+---------------------------------------------------------
+model: dif, data dir: graph/, dataset: Tox21_MMP, 1runs, 
+Parameters,	 [n_ensemble], 		  50
+Parameters,	 [n_estimators], 		  6
+Parameters,	 [max_samples], 		  256
+Parameters,	 [batch_size], 		  5000
+Parameters,	 [network_name], 		  gin
+Parameters,	 [data_type], 		  graph
+Parameters,	 [new_ensemble_method], 		  0
+Parameters,	 [n_hidden], 		  100
+Parameters,	 [n_emb], 		  50
+Parameters,	 [n_layers], 		  5
+Parameters,	 [activation], 		  tanh
+Parameters,	 [pooling], 		  sum
+Note: 
+---------------------------------------------------------
+data, adj_auroc, std, adj_ap, std, adj_f1, std, adj_p, std, adj_r, std, time, model
+Tox21_MMP, 0.7154, 0.0000, 0.2609, 0.0000, 61.3
+done

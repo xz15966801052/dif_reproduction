@@ -1,0 +1,132 @@
+10-09 01.47.52
+
+---------------------------------------------------------
+model: dif, data dir: ts/, dataset: UCR_natural, 1runs, 
+Parameters,	 [n_ensemble], 		  50
+Parameters,	 [n_estimators], 		  6
+Parameters,	 [max_samples], 		  256
+Parameters,	 [batch_size], 		  64
+Parameters,	 [network_name], 		  dilated_conv
+Parameters,	 [data_type], 		  ts
+Parameters,	 [new_ensemble_method], 		  0
+Parameters,	 [rep_dim], 		  20
+Parameters,	 [layers], 		  2
+Parameters,	 [hidden_dim], 		  32
+args,	 [seq_len], 		  100
+args,	 [stride], 		  10
+Note: 
+---------------------------------------------------------
+data, adj_auroc, std, adj_ap, std, adj_f1, std, adj_p, std, adj_r, std, time, model
+10-09 01.51.08
+
+---------------------------------------------------------
+model: dif, data dir: ts/, dataset: UCR_natural, 1runs, 
+Parameters,	 [n_ensemble], 		  50
+Parameters,	 [n_estimators], 		  6
+Parameters,	 [max_samples], 		  256
+Parameters,	 [batch_size], 		  64
+Parameters,	 [network_name], 		  dilated_conv
+Parameters,	 [data_type], 		  ts
+Parameters,	 [new_ensemble_method], 		  0
+Parameters,	 [rep_dim], 		  20
+Parameters,	 [layers], 		  2
+Parameters,	 [hidden_dim], 		  32
+args,	 [seq_len], 		  100
+args,	 [stride], 		  10
+Note: 
+---------------------------------------------------------
+data, adj_auroc, std, adj_ap, std, adj_f1, std, adj_p, std, adj_r, std, time, model
+10-09 01.53.45
+
+---------------------------------------------------------
+model: dif, data dir: ts/, dataset: UCR_natural, 1runs, 
+Parameters,	 [n_ensemble], 		  50
+Parameters,	 [n_estimators], 		  6
+Parameters,	 [max_samples], 		  256
+Parameters,	 [batch_size], 		  64
+Parameters,	 [network_name], 		  dilated_conv
+Parameters,	 [data_type], 		  ts
+Parameters,	 [new_ensemble_method], 		  0
+Parameters,	 [rep_dim], 		  20
+Parameters,	 [layers], 		  2
+Parameters,	 [hidden_dim], 		  32
+args,	 [seq_len], 		  100
+args,	 [stride], 		  10
+Note: 
+---------------------------------------------------------
+data, adj_auroc, std, adj_ap, std, adj_f1, std, adj_p, std, adj_r, std, time, model
+10-09 01.58.43
+
+---------------------------------------------------------
+model: dif, data dir: ts/, dataset: UCR_natural, 1runs, 
+Parameters,	 [n_ensemble], 		  50
+Parameters,	 [n_estimators], 		  6
+Parameters,	 [max_samples], 		  256
+Parameters,	 [batch_size], 		  64
+Parameters,	 [network_name], 		  dilated_conv
+Parameters,	 [data_type], 		  ts
+Parameters,	 [new_ensemble_method], 		  0
+Parameters,	 [rep_dim], 		  20
+Parameters,	 [layers], 		  2
+Parameters,	 [hidden_dim], 		  32
+args,	 [seq_len], 		  100
+args,	 [stride], 		  10
+Note: 
+---------------------------------------------------------
+data, adj_auroc, std, adj_ap, std, adj_f1, std, adj_p, std, adj_r, std, time, model
+156_TkeepFifthMARS, 0.9994, 0.0000, 0.9515, 0.0000, 0.9751, 0.0000, 0.9515, 0.0000, 1.0000, 0.0000, 10.7, dif 
+157_TkeepFirstMARS, 0.8485, 0.0000, 0.0132, 0.0000, 0.0261, 0.0000, 0.0132, 0.0000, 1.0000, 0.0000, 10.9, dif 
+158_TkeepForthMARS, 1.0000, 0.0000, 1.0000, 0.0000, 1.0000, 0.0000, 1.0000, 0.0000, 1.0000, 0.0000, 10.9, dif 
+159_TkeepSecondMARS, 0.9963, 0.0000, 0.2750, 0.0000, 0.4314, 0.0000, 0.2750, 0.0000, 1.0000, 0.0000, 11.2, dif 
+160_TkeepThirdMARS, 0.9992, 0.0000, 0.9429, 0.0000, 0.9706, 0.0000, 0.9429, 0.0000, 1.0000, 0.0000, 11.0, dif 
+167_gait1, 0.9972, 0.0000, 0.7049, 0.0000, 0.8269, 0.0000, 0.7049, 0.0000, 1.0000, 0.0000, 66.2, dif 
+168_gait2, 0.9989, 0.0000, 0.8625, 0.0000, 0.9261, 0.0000, 0.8625, 0.0000, 1.0000, 0.0000, 59.4, dif 
+169_gait3, 0.9975, 0.0000, 0.8561, 0.0000, 0.9225, 0.0000, 0.8561, 0.0000, 1.0000, 0.0000, 59.0, dif 
+178_ltstdbs30791AI, 1.0000, 0.0000, 1.0000, 0.0000, 1.0000, 0.0000, 1.0000, 0.0000, 1.0000, 0.0000, 52.8, dif 
+179_ltstdbs30791AS, 1.0000, 0.0000, 1.0000, 0.0000, 1.0000, 0.0000, 1.0000, 0.0000, 1.0000, 0.0000, 46.6, dif 
+180_ltstdbs30791ES, 0.9922, 0.0000, 0.4258, 0.0000, 0.5973, 0.0000, 0.4258, 0.0000, 1.0000, 0.0000, 47.2, dif 
+194_sddb49, 1.0000, 0.0000, 1.0000, 0.0000, 1.0000, 0.0000, 1.0000, 0.0000, 1.0000, 0.0000, 86.9, dif 
+10-10 20.46.37
+
+---------------------------------------------------------
+model: dif, data dir: ts/, dataset: UCR_natural, 1runs, 
+Parameters,	 [n_ensemble], 		  50
+Parameters,	 [n_estimators], 		  6
+Parameters,	 [max_samples], 		  256
+Parameters,	 [batch_size], 		  64
+Parameters,	 [network_name], 		  dilated_conv
+Parameters,	 [data_type], 		  ts
+Parameters,	 [new_ensemble_method], 		  0
+Parameters,	 [rep_dim], 		  20
+Parameters,	 [layers], 		  2
+Parameters,	 [hidden_dim], 		  32
+args,	 [seq_len], 		  100
+args,	 [stride], 		  10
+Note: 
+---------------------------------------------------------
+data, adj_auroc, std, adj_ap, std, adj_f1, std, adj_p, std, adj_r, std, time, model
+10-10 20.56.33
+
+---------------------------------------------------------
+model: dif, data dir: ts/, dataset: UCR_natural, 1runs, 
+Parameters,	 [n_ensemble], 		  50
+Parameters,	 [n_estimators], 		  6
+Parameters,	 [max_samples], 		  256
+Parameters,	 [batch_size], 		  64
+Parameters,	 [network_name], 		  dilated_conv
+Parameters,	 [data_type], 		  ts
+Parameters,	 [new_ensemble_method], 		  0
+Parameters,	 [rep_dim], 		  20
+Parameters,	 [layers], 		  2
+Parameters,	 [hidden_dim], 		  32
+args,	 [seq_len], 		  100
+args,	 [stride], 		  10
+Note: 
+---------------------------------------------------------
+data, adj_auroc, std, adj_ap, std, adj_f1, std, adj_p, std, adj_r, std, time, model
+156_TkeepFifthMARS, 0.9990, 0.0000, 0.9245, 0.0000, 0.9608, 0.0000, 0.9245, 0.0000, 1.0000, 0.0000, 16.9, dif 
+157_TkeepFirstMARS, 0.8546, 0.0000, 0.0138, 0.0000, 0.0271, 0.0000, 0.0138, 0.0000, 1.0000, 0.0000, 17.7, dif 
+158_TkeepForthMARS, 1.0000, 0.0000, 1.0000, 0.0000, 1.0000, 0.0000, 1.0000, 0.0000, 1.0000, 0.0000, 18.8, dif 
+159_TkeepSecondMARS, 0.9967, 0.0000, 0.2973, 0.0000, 0.4583, 0.0000, 0.2973, 0.0000, 1.0000, 0.0000, 19.2, dif 
+160_TkeepThirdMARS, 0.9991, 0.0000, 0.9340, 0.0000, 0.9658, 0.0000, 0.9340, 0.0000, 1.0000, 0.0000, 17.4, dif 
+167_gait1, 0.9957, 0.0000, 0.6118, 0.0000, 0.7591, 0.0000, 0.6118, 0.0000, 1.0000, 0.0000, 102.4, dif 

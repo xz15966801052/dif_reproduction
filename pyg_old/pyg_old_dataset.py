@@ -1,5 +1,5 @@
 import copy
-import collections
+from collections.abc import Iterable
 import warnings
 import re
 
@@ -11,7 +11,7 @@ import errno
 
 
 def to_list(x):
-    if not isinstance(x, collections.Iterable) or isinstance(x, str):
+    if not isinstance(x, Iterable) or isinstance(x, str):
         x = [x]
     return x
 

@@ -96,7 +96,7 @@ class DIF:
         Controls the verbosity
 
     """
-    def __init__(self, network_name='mlp', network_class=None,
+    def __init__(self, network_name='mlp', network_class=None, 
                  n_ensemble=50, n_estimators=6, max_samples=256,
                  hidden_dim=[500,100], rep_dim=20, skip_connection=None, dropout=None, activation='tanh',
                  data_type='tabular', batch_size=64,
@@ -117,7 +117,8 @@ class DIF:
         self.new_score_func = new_score_func
         self.new_ensemble_method = new_ensemble_method
 
-        self.device = device
+        self.device = torch.device('cpu')
+
         self.n_processes = n_processes
         self.verbose = verbose
 
@@ -213,7 +214,7 @@ class DIF:
 
     def _training_transfer(self, X, ensemble_seeds):
         if self.new_ensemble_method:
-            self.set_seed(ensemble_seeds[0])
+            self.set_seed(int(ensemble_seeds[0]))
             net = self.Net(n_features=self.n_features, **self.network_args).to(self.device)
             self.net_init(net)
 
@@ -221,7 +222,7 @@ class DIF:
             self.net_lst.append(net)
         else:
             for i in tqdm(range(self.n_ensemble), desc='training ensemble process', ncols=100, leave=None):
-                self.set_seed(ensemble_seeds[i])
+                self.set_seed(int(ensemble_seeds[i]))
                 net = self.Net(n_features=self.n_features, **self.network_args).to(self.device)
                 self.net_init(net)
 

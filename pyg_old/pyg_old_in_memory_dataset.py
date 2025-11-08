@@ -72,7 +72,7 @@ class InMemoryDataset(Dataset):
         if hasattr(self.data, '__num_nodes__'):
             data.num_nodes = self.data.__num_nodes__[idx]
 
-        for key in self.data.keys:
+        for key in self.data.keys():
             item, slices = self.data[key], self.slices[key]
             start, end = slices[idx].item(), slices[idx + 1].item()
             # print(slices[idx], slices[idx + 1])

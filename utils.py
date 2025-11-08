@@ -133,7 +133,7 @@ def get_sub_seqs(x_arr, seq_len=100, stride=1, start_discount=np.array([])):
 
 
 def get_best_f1(label, score):
-    precision, recall, _ = metrics.precision_recall_curve(y_true=label, probas_pred=score)
+    precision, recall, _ = metrics.precision_recall_curve(y_true=label, y_score=score)
     f1 = 2 * precision * recall / (precision + recall + 1e-5)
     best_f1 = f1[np.argmax(f1)]
     best_p = precision[np.argmax(f1)]
@@ -169,7 +169,7 @@ def get_event_metrics(df, label, score):
                 num_group += 1
         return num_group
 
-    precision, recall, threshold = metrics.precision_recall_curve(y_true=label, probas_pred=score)
+    precision, recall, threshold = metrics.precision_recall_curve(y_true=label, y_score=score)
     f1 = 2 * precision * recall / (precision + recall + 1e-5)
     best_threshold = threshold[np.argmax(f1)]
     label_predict = np.array([s >= best_threshold for s in score], dtype=int)
